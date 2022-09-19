@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
 import Demo1 from './pages/Demo1'
+import Demo2 from './pages/Demo2'
+import Demo3 from './pages/Demo3'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-    <Demo1 />
+    {/* <Demo1 /> */}
+    <Demo3 />
     </div>
   )
 }
