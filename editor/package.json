@@ -9,9 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.37",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
     "bobby-hooks": "workspace:*",
-    "bobby-utils": "workspace:*"
+    "bobby-utils": "workspace:*",
+    "immutable": "^4.1.0",
+    "rxjs": "^7.5.6",
+    "sass": "^1.54.9",
+    "scss": "^0.2.4",
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
