@@ -1,6 +1,7 @@
 import { Emiter } from "./Emiter";
 import {Map as ImmutableMap, List} from 'immutable'
-
+// Immutable 可以做到让状态可预测，没有副作用
+// Immutable 采用了结构共享机制，所以会尽量复用内存
 export class Node extends Emiter {
 
   constructor(

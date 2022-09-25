@@ -50,7 +50,6 @@ export const Draggable = defineComponent({
 
   },
   setup(props, ctx){
-
     const {handlers, diffX, diffY} = useDrag({
       onDragstart : props.onDragstart,
       onDragend : props.onDragend 
